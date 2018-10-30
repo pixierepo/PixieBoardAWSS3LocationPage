@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>PixieBoard Location</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Severless Example with PixieBoard">
+    <meta name="author" content="">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/gps.css">
+    
+</head>
+
+<body>
+    <div class="row">
+        <div id="cmicon" class="col-sm-3"></div>
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-6">Latitude:</div>
+                <div id="latitude" class="col-sm-6">test</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">Longitude:</div>
+                <div id="longitude" class="col-sm-6">test</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">PixieBoardID:</div>
+                <div id="pixie_id" class="col-sm-6">test</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">Saved Time:</div>
+                <div id="gps_saved_time" class="col-sm-6">test</div>
+            </div>
+            <div class="row">
+                <button id="request" class="btn btn-primary">Refresh</button>
+            </div>
+            <div id="msg" class="row">
+                Press Refresh to get last Location
+            </div>
+        </div>
+        <div class="col-sm-3"></div>
+    </div>
+
+    <script src="js/vendor/jquery-3.1.0.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/gps.js"></script>
+</body>
+
+</html>

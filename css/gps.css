@@ -1,0 +1,30 @@
+
+#request {
+    position: relative;
+    background: #fff
+    color: #000;
+    border-color: #000;
+    border-radius: 12px;
+    text-align: center;
+    width: 100px;
+    font-size: 16pt;
+}
+
+.row
+{
+    font-size: 22pt;
+}
+
+#cmicon
+{
+    background-image: url(../img/Logo.png);
+    background-size: 70%;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#msg
+{
+    font-size: 12pt;
+}
